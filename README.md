@@ -54,7 +54,7 @@ npm run build
 - **React** - UI library
 - **TypeScript** - Type safety
 - **Vite** - Build tool
-- **Tailwind CSS** - Styling
+- **Material UI CSS** - Styling
 - **React Router** - Navigation
 - **localStorage** - Data persistence
 
