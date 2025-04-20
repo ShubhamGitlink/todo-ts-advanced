@@ -11,8 +11,10 @@ const TodoForm = ({ onAddTodo }: TodoFormProps) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onAddTodo(inputValue);
-    setInputValue('');
+    if (inputValue.trim()) {
+      onAddTodo(inputValue);
+      setInputValue('');
+    }
   };
 
   return (
