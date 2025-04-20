@@ -7,7 +7,7 @@ A simple and intuitive Todo List application built with React, TypeScript, and V
 - Create and manage tasks
 - Mark tasks as completed
 - View your completed tasks history
-- Responsive design with Tailwind CSS
+- Responsive design with Material UI
 - Data persistence using localStorage
 
 ## Pages
